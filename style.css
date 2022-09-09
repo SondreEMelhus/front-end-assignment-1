@@ -1,0 +1,95 @@
+body {
+    font-family:'Lucida Sans' ;
+    background-color: #FDFFFC;
+    color: #161925;
+}
+
+button {
+    font-size: large;
+}
+
+.pageTitle {
+  padding-top: 2%;
+  margin-left: 5%;
+}
+
+.columnTitle {
+    margin-top: 4%;
+    text-align: center;
+  }
+
+  .columnStyling {
+    background-color: #f5f1ee;
+    border: 1px solid #f5f1ee;
+    border-radius: 4px;
+    height: 100%;
+  }
+
+  .boxStoreStyling {
+    margin-top: 4%;
+  }
+
+  .storeImage {
+    margin: 4%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .boxText {
+    padding: 3%;
+    text-align: center;
+  }
+
+  .buttonLoan {
+    margin: 5% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 60%;
+    border: 1px solid #08e313;
+    border-radius: 4px;
+    background-color: #08e313;
+  }
+
+  .buttonBank {
+    margin: 3% 4.5%;
+    height: 35px;
+    width: 40%;
+    border: 1px solid #08B2E3;
+    border-radius: 4px;
+    background-color: #08B2E3;
+  }
+
+  .buttonWork {
+    margin: 3% 4.5%;
+    height: 35px;
+    width: 40%;
+    border: 1px solid #EE6352;
+    border-radius: 4px;
+    background-color: #EE6352;
+  }
+
+  .buttonStore {
+    margin: 5% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 60%;
+    border: 1px solid #dfe308;
+    border-radius: 4px;
+    background-color:#dfe308;
+  }
+
+  .columnStoreStyling {
+    background-color: #f5f1ee;
+    border: 1px solid #f5f1ee;
+    border-radius: 4px;
+    height: auto;
+  }
