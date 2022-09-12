@@ -1,0 +1,27 @@
+{
+  "name": "komputer_store",
+  "version": "1.0.0",
+  "description": "A computer store web app that lets the user save money in a bank, work to get more money and use the money to buy a laptop.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SondreEMelhus/front-end-assignment-1.git"
+  },
+  "keywords": [
+    "komputer",
+    "store",
+    "bank",
+    "loan",
+    "buy",
+    "laptop"
+  ],
+  "author": "Sondre Melhus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SondreEMelhus/front-end-assignment-1/issues"
+  },
+  "homepage": "https://github.com/SondreEMelhus/front-end-assignment-1#readme"
+}
