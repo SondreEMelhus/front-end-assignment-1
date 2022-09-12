@@ -77,7 +77,7 @@
                   
                   <button type="button" name="bankButton" value="Bank" id="bankBtn" class="buttonBank">Bank</button>
                   <button type="button" name="workButton" value="Work" id="workBtn" class="buttonWork">Work</button>
-                  <button type="button" name="repayLoanButton" value="Repay" id="repayLoanBtn" class="buttonLoan" style="display:none;">Repay loan</button>
+                  <button type="button" name="repayLoanButton" value="Repay" id="repayLoanBtn" class="buttonRepayLoan" style="display:none;">Repay loan</button>
               </div>
             </div>
 
@@ -85,17 +85,13 @@
             <div class="col-sm">
               <div class="columnStyling">
                 <h2 class="columnTitle">Laptops</h2>
-                <div class="dropdown">
-                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown button
-                  </button>
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                <select id="dropdownSelector" class="dropdownStyling">
+                  <div id="dropdownOptionContainer">
                   </div>
-                </div>
-                <p class="boxText">This is a test</p>
+                </select>
+                <a class="boxSpecsTitle"><bold>Features:</bold></a>
+                <ul class="boxSpecs" id="specs">
+                </ul>
               </div>
             </div>
 
@@ -106,19 +102,19 @@
                   <div class="row">
                     <div class="col-sm">
                       <div class="boxStoreStyling">
-                        <img class="storeImage" src="images/macbook-pro.jpg" alt="MacBook Pro 2020" height=80% width=80% />
+                        <img class="storeImage" id="laptopImage" src="" height=120px width=140px/>
                       </div>
                     </div>
                     <div class="col-sm">
                       <div class="boxStoreStyling">
-                        <h2 class="columnTitle">Skal være dropdown</h2>
-                        <p class="boxText">Her skal info om valgt dropdown</p>
+                        <h2 class="columnTitle" id="descriptionTitle"></h2>
+                        <p class="boxText" id="descriptionText"></p>
                       </div>
                     </div>
                     <div class="col-sm">
                       <div class="boxStoreStyling">
-                        <h2 class="columnTitle">Skal pris på dropdown</h2>
-                        <button class="buttonStore">Buy now</button>
+                        <h2 class="columnTitle" id="price"></h2>
+                        <button class="buttonStore" id="buyNowBtn">Buy now</button>
                       </div>
                     </div>
                   </div>
@@ -129,7 +125,8 @@
         </div>
     </div>
     
-    <script src="index.js"></script>
+    <script defer src="index.js"></script>
+
 
     <!--Bootstrap scripts-->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
