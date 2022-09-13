@@ -2,86 +2,78 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+      shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>HTML 5 Boilerplate</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Komputer store</title>
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div>
-        <h1 class="pageTitle">Komputer store</h1>
-        <hr>
-        <div class="container-fluid">
-            <div class="column" style="padding-top: 2%;">
-              <div class="row">
-                <div class="col-sm">
-                  <div class="columnStyling">
-                    <h2 class="columnTitle">Bank</h2>
-
-                    <!--Bank sub-container-->
-                    <div class="container-fluid">
-                      <div class="column">
-                        <div class="row">
-
-                          <div class="col-sm">
-                            <div class="columnStyling">
-                            <p class="boxText">Balance</p>
-                            <p id="loanTxt" class="boxText" style="display:none;">Outstanding loan</p>
-                            </div>
-                          </div>
-                        
-
-                          <div class="col-sm">
-                            <div class="columnStyling">
-                              <p id="balance" class="boxText">200</p>
-                              <p id="loan" class="boxText" style="display:none;">0</p>
-                            </div>
-                          </div>
-                        </div>
-
-                      </div>
-                    </div>
-
-                    <button type="button" name="loan" value="TakeLoan" id="loanBtn" class="buttonLoan">Get a loan</button>
-                </div>
-              </div>
-
-              <!--Pay column-->
-              <div class="col-sm">
-                <div class="columnStyling">
-                  <h2 class="columnTitle">Work</h2>
-
-                  <!--Pay sub-column-->
-                  <div class="container-fluid">
-                    <div class="column">
-                      <div class="row">
-
-                        <div class="col-sm">
-                          <div class="columnStyling">
-                          <p class="boxText">Pay</p>
-                          </div>
-                        </div>
-                      
-
-                        <div class="col-sm">
-                          <div class="columnStyling">
-                            <p id="salary" class="boxText">0</p>
-                          </div>
+      <h1 class="pageTitle">Komputer store</h1>
+      <hr>
+      <div class="container-fluid">
+        <div class="column" style="padding-top: 2%;">
+          <div class="row">
+            <div class="col-sm">
+              <div class="columnStyling">
+                <h2 class="columnTitle">Bank</h2>
+                <div class="container-fluid">
+                  <div class="column">
+                    <div class="row">
+                      <div class="col-sm">
+                        <div class="columnStyling">
+                          <p class="boxText">Balance</p>
+                          <p id="loanTxt" class="boxText" style="display:none;">Outstanding
+                            loan</p>
                         </div>
                       </div>
-
+                      <div class="col-sm">
+                        <div class="columnStyling">
+                          <p id="balance" class="boxText">200</p>
+                          <p id="loan" class="boxText" style="display:none;">0</p>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                  
-                  <button type="button" name="bankButton" value="Bank" id="bankBtn" class="buttonBank">Bank</button>
-                  <button type="button" name="workButton" value="Work" id="workBtn" class="buttonWork">Work</button>
-                  <button type="button" name="repayLoanButton" value="Repay" id="repayLoanBtn" class="buttonRepayLoan" style="display:none;">Repay loan</button>
+                </div>
+                <button type="button" name="loan" value="TakeLoan" id="loanBtn"
+                  class="buttonLoan">Get a loan</button>
               </div>
             </div>
-
-            <!--Dropdown column-->
+            <div class="col-sm">
+              <div class="columnStyling">
+                <h2 class="columnTitle">Work</h2>
+                <div class="container-fluid">
+                  <div class="column">
+                    <div class="row">
+                      <div class="col-sm">
+                        <div class="columnStyling">
+                          <p class="boxText">Pay</p>
+                        </div>
+                      </div>
+                      <div class="col-sm">
+                        <div class="columnStyling">
+                          <p id="salary" class="boxText">0</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button type="button" name="bankButton" value="Bank"
+                  id="bankBtn" class="buttonBank">Bank</button>
+                <button type="button" name="workButton" value="Work"
+                  id="workBtn" class="buttonWork">Work</button>
+                <button type="button" name="repayLoanButton" value="Repay"
+                  id="repayLoanBtn" class="buttonRepayLoan"
+                  style="display:none;">Repay loan</button>
+              </div>
+            </div>
             <div class="col-sm">
               <div class="columnStyling">
                 <h2 class="columnTitle">Laptops</h2>
@@ -94,15 +86,14 @@
                 </ul>
               </div>
             </div>
-
-            <!--Store column-->
             <div class="container-fluid">
               <div class="column" style="padding-top: 2%;">
                 <div class="columnStoreStyling">
                   <div class="row">
                     <div class="col-sm">
                       <div class="boxStoreStyling">
-                        <img class="storeImage" id="laptopImage" src="" height=120px width=140px/>
+                        <img class="storeImage" id="laptopImage" src=""
+                          height=120px width=140px/>
                       </div>
                     </div>
                     <div class="col-sm">
@@ -123,14 +114,22 @@
             </div>
           </div>
         </div>
-    </div>
-    
-    <script defer src="index.js"></script>
+      </div>
+
+      <script src="index.js" defer></script>
 
 
-    <!--Bootstrap scripts-->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
-</html>
+      <!--Bootstrap scripts-->
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    </body>
+  </html>
